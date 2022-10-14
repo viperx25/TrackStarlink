@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SGP4 Source">
+      <UniqueIdentifier>{72e3617c-49ec-4247-8b8a-ac1b123ddc83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SGP4 Headers">
+      <UniqueIdentifier>{b7f63797-6f23-459d-b69f-5c3bb6a10a21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CoordGeodetic.h">
+      <Filter>Header Files\SGP4 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CoordTopocentric.h">
+      <Filter>Header Files\SGP4 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DateTime.h">
+      <Filter>Header Files\SGP4 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DecayedException.h">
+      <Filter>Header Files\SGP4 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Eci.h">
+      <Filter>Header Files\SGP4 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Header Files\SGP4 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Header Files\SGP4 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="OrbitalElements.h">
+      <Filter>Header Files\SGP4 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SatelliteException.h">
+      <Filter>Header Files\SGP4 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SGP4.h">
+      <Filter>Header Files\SGP4 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SolarPosition.h">
+      <Filter>Header Files\SGP4 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeSpan.h">
+      <Filter>Header Files\SGP4 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Tle.h">
+      <Filter>Header Files\SGP4 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TleException.h">
+      <Filter>Header Files\SGP4 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Header Files\SGP4 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files\SGP4 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadTLEs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngleComparison.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="passpredict.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CoordGeodetic.cc">
+      <Filter>Source Files\SGP4 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CoordTopocentric.cc">
+      <Filter>Source Files\SGP4 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DateTime.cc">
+      <Filter>Source Files\SGP4 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DecayedException.cc">
+      <Filter>Source Files\SGP4 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Eci.cc">
+      <Filter>Source Files\SGP4 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cc">
+      <Filter>Source Files\SGP4 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OrbitalElements.cc">
+      <Filter>Source Files\SGP4 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cc">
+      <Filter>Source Files\SGP4 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SatelliteException.cc">
+      <Filter>Source Files\SGP4 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SolarPosition.cc">
+      <Filter>Source Files\SGP4 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeSpan.cc">
+      <Filter>Source Files\SGP4 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Tle.cc">
+      <Filter>Source Files\SGP4 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TleException.cc">
+      <Filter>Source Files\SGP4 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cc">
+      <Filter>Source Files\SGP4 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cc">
+      <Filter>Source Files\SGP4 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadTLEs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngleComparison.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SGP4.cc">
+      <Filter>Source Files\SGP4 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckStarlink.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tles\filenames.dat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-24.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-1007.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-1073.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-1132.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-1138.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-1279.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-1329.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-1441.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-1461.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-1522.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-1528.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-1585.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-1644.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-1715.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-1734.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-1777.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-1782.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-1848.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-2011.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-2048.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-2063.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-2068.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-2087.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-2257.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-2258.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-2461.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-2567.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-2613.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-2758.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-3003.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-3096.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-3151.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-3167.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-3219.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-3317.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-3321.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-3366.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-3528.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-3537.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-3542.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-3622.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-3700.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-3810.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-3870.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-3889.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-3951.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-4004.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-4019.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-4056.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-4063.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-4091.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-4260.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-4362.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-4391.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-4415.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-4511.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-4522.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-4622.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-4691.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-4718.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-4725.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-4749.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tles\STARLINK-5028.tle">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

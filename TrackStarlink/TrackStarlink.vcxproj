@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AngleComparison.h" />
+    <ClInclude Include="CoordGeodetic.h" />
+    <ClInclude Include="CoordTopocentric.h" />
+    <ClInclude Include="DateTime.h" />
+    <ClInclude Include="DecayedException.h" />
+    <ClInclude Include="Eci.h" />
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="LoadTLEs.h" />
+    <ClInclude Include="Observer.h" />
+    <ClInclude Include="OrbitalElements.h" />
+    <ClInclude Include="SatelliteException.h" />
+    <ClInclude Include="SGP4.h" />
+    <ClInclude Include="SolarPosition.h" />
+    <ClInclude Include="TimeSpan.h" />
+    <ClInclude Include="Tle.h" />
+    <ClInclude Include="TleException.h" />
+    <ClInclude Include="Util.h" />
+    <ClInclude Include="Vector.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AngleComparison.cpp" />
+    <ClCompile Include="CheckStarlink.cc" />
+    <ClCompile Include="CoordGeodetic.cc" />
+    <ClCompile Include="CoordTopocentric.cc" />
+    <ClCompile Include="DateTime.cc" />
+    <ClCompile Include="DecayedException.cc" />
+    <ClCompile Include="Eci.cc" />
+    <ClCompile Include="Globals.cc" />
+    <ClCompile Include="LoadTLEs.cc" />
+    <ClCompile Include="Observer.cc" />
+    <ClCompile Include="OrbitalElements.cc" />
+    <ClCompile Include="passpredict.cc" />
+    <ClCompile Include="SatelliteException.cc" />
+    <ClCompile Include="SGP4.cc" />
+    <ClCompile Include="SolarPosition.cc" />
+    <ClCompile Include="TimeSpan.cc" />
+    <ClCompile Include="Tle.cc" />
+    <ClCompile Include="TleException.cc" />
+    <ClCompile Include="Util.cc" />
+    <ClCompile Include="Vector.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tles\filenames.dat" />
+    <None Include="tles\STARLINK-1007.tle" />
+    <None Include="tles\STARLINK-1073.tle" />
+    <None Include="tles\STARLINK-1132.tle" />
+    <None Include="tles\STARLINK-1138.tle" />
+    <None Include="tles\STARLINK-1279.tle" />
+    <None Include="tles\STARLINK-1329.tle" />
+    <None Include="tles\STARLINK-1441.tle" />
+    <None Include="tles\STARLINK-1461.tle" />
+    <None Include="tles\STARLINK-1522.tle" />
+    <None Include="tles\STARLINK-1528.tle" />
+    <None Include="tles\STARLINK-1585.tle" />
+    <None Include="tles\STARLINK-1644.tle" />
+    <None Include="tles\STARLINK-1715.tle" />
+    <None Include="tles\STARLINK-1734.tle" />
+    <None Include="tles\STARLINK-1777.tle" />
+    <None Include="tles\STARLINK-1782.tle" />
+    <None Include="tles\STARLINK-1848.tle" />
+    <None Include="tles\STARLINK-2011.tle" />
+    <None Include="tles\STARLINK-2048.tle" />
+    <None Include="tles\STARLINK-2063.tle" />
+    <None Include="tles\STARLINK-2068.tle" />
+    <None Include="tles\STARLINK-2087.tle" />
+    <None Include="tles\STARLINK-2257.tle" />
+    <None Include="tles\STARLINK-2258.tle" />
+    <None Include="tles\STARLINK-24.tle" />
+    <None Include="tles\STARLINK-2461.tle" />
+    <None Include="tles\STARLINK-2567.tle" />
+    <None Include="tles\STARLINK-2613.tle" />
+    <None Include="tles\STARLINK-2758.tle" />
+    <None Include="tles\STARLINK-3003.tle" />
+    <None Include="tles\STARLINK-3096.tle" />
+    <None Include="tles\STARLINK-3151.tle" />
+    <None Include="tles\STARLINK-3167.tle" />
+    <None Include="tles\STARLINK-3219.tle" />
+    <None Include="tles\STARLINK-3317.tle" />
+    <None Include="tles\STARLINK-3321.tle" />
+    <None Include="tles\STARLINK-3366.tle" />
+    <None Include="tles\STARLINK-3528.tle" />
+    <None Include="tles\STARLINK-3537.tle" />
+    <None Include="tles\STARLINK-3542.tle" />
+    <None Include="tles\STARLINK-3622.tle" />
+    <None Include="tles\STARLINK-3700.tle" />
+    <None Include="tles\STARLINK-3810.tle" />
+    <None Include="tles\STARLINK-3870.tle" />
+    <None Include="tles\STARLINK-3889.tle" />
+    <None Include="tles\STARLINK-3951.tle" />
+    <None Include="tles\STARLINK-4004.tle" />
+    <None Include="tles\STARLINK-4019.tle" />
+    <None Include="tles\STARLINK-4056.tle" />
+    <None Include="tles\STARLINK-4063.tle" />
+    <None Include="tles\STARLINK-4091.tle" />
+    <None Include="tles\STARLINK-4260.tle" />
+    <None Include="tles\STARLINK-4362.tle" />
+    <None Include="tles\STARLINK-4391.tle" />
+    <None Include="tles\STARLINK-4415.tle" />
+    <None Include="tles\STARLINK-4511.tle" />
+    <None Include="tles\STARLINK-4522.tle" />
+    <None Include="tles\STARLINK-4622.tle" />
+    <None Include="tles\STARLINK-4691.tle" />
+    <None Include="tles\STARLINK-4718.tle" />
+    <None Include="tles\STARLINK-4725.tle" />
+    <None Include="tles\STARLINK-4749.tle" />
+    <None Include="tles\STARLINK-5028.tle" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{2bc9c263-58cf-472c-a6f7-c60fb98ab8ee}</ProjectGuid>
+    <RootNamespace>TrackStarlink</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
