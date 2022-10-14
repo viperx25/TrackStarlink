@@ -41,12 +41,17 @@ int main()
 		strftime(formatStr, sizeof(formatStr), "%d%b%Y %H:%M:%S", localtime(&t));
 		cout << formatStr << " - Satellites Listed by Theta" << endl;
 
-		updatedSatVec = rankThetas(satVec, DateTime::Now(), CoordGeodetic(41.3913358, -73.9565737, 0.05), 3);
+		/*
+		 * current options:
+		 * - location: Ike Barracks, West Point, NY
+		 * - maxTheta: Only show satellites within 10 degrees of angle from us
+		 */
+		updatedSatVec = rankThetas(satVec, DateTime::Now(), CoordGeodetic(41.3913358, -73.9565737, 0.05), 10);
 		printSatData(updatedSatVec);
 
 		Sleep(1000);
 		system("cls");
 	}
 
-	cin.get();
+
 }

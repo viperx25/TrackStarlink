@@ -98,7 +98,14 @@ vector<SatData> rankThetas(vector<SatData>& satVec, DateTime time, CoordGeodetic
 	// Update each satellite theta
 	for (int i = 0; i < satVec.size(); i++)
 	{
-		theta = satVec.at(i).sgp.FindPosition(time).Position().Angle(Eci::Eci(time, geo).Position());
+		try {
+			theta = satVec.at(i).sgp.FindPosition(time).Position().Angle(Eci::Eci(time, geo).Position());
+		}
+		catch (DecayedException de)
+		{
+			cout << de.what() << ": ";
+			cout << satVec.at(i).sgp.name << endl;
+		}
 		deltaTheta = theta - satVec.at(i).lastTheta;
 
 		// if first derivative goes from neg to pos -> min
